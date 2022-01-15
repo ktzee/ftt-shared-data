@@ -1,39 +1,42 @@
-{   
-		"name": "fvtt-shared-data",   
-		"title": "Shared Data",   
-		"description": "Sharing data across worlds",   
-		"author": "Giuseppe Consoli",
-		"version": "1.0.0",
-		"minimumCoreVersion": "0.5.0",
-		"compatibleCoreVersion":"0.5.5"
-		"packs": [
-			{
-				"name": "items",
-				"label": "My Items",
-				"path": "packs/items.db",
-				"entity": "Item",
-				"module": "fvtt-shared-data"
-			},
-			{
-				"name": "npcs",
-				"label": "My NPCs",
-				"path": "packs/monsters.db",
-				"entity": "Actor",
-				"module": "fvtt-shared-data"
-			},
-			{
-				"name": "scenes",
-				"label": "My Scenes",
-				"path": "packs/scenes.db",
-				"entity": "Scene",
-				"module": "fvtt-shared-data"
-			},
-			{
-				"name": "journals",
-				"label": "journals",
-				"path": "packs/journals.db",
-				"entity": "Journal",
-				"module": "fvtt-shared-data"
-			}
-		]
+{ 
+	"name": "fvtt-shared-data",   
+	"title": "Shared Data",   
+	"description": "Sharing data across worlds",   
+	"author": "Giuseppe Consoli",
+	"version": "1.0.0",
+	"minimumCoreVersion": "0.8.6",
+	"compatibleCoreVersion": "0.9",
+	"url": "https://github.com/ktzee/fvtt-shared-data/",
+	"packs": [
+		{
+			"name": "items",
+			"label": "My Items",
+			"path": "./packs/items.db",
+			"entity": "Item",
+			"module": "fvtt-shared-data"
+		},
+		{
+			"name": "npcs",
+			"label": "My NPCs",
+			"path": "./packs/monsters.db",
+			"entity": "Actor",
+			"module": "fvtt-shared-data"
+		},
+		{
+			"name": "scenes",
+			"label": "My Scenes",
+			"path": "./packs/scenes.db",
+			"entity": "Scene",
+			"module": "fvtt-shared-data"
+		},
+		{
+			"name": "journals",
+			"label": "Journals",
+			"path": "./packs/journals.db",
+			"entity": "JournalEntry",
+			"module": "fvtt-shared-data",
+			"system": "CoC7"
+		}
+	],
+	"manifest": "https://raw.githubusercontent.com/ktzee/fvtt-shared-data/main/module.json"
  }
