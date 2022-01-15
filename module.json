@@ -12,28 +12,28 @@
 				"label": "My Items",
 				"path": "packs/items.db",
 				"entity": "Item",
-				"module": "SharedData"
+				"module": "fvtt-shared-data"
 			},
 			{
 				"name": "npcs",
 				"label": "My NPCs",
 				"path": "packs/monsters.db",
 				"entity": "Actor",
-				"module": "SharedData"
+				"module": "fvtt-shared-data"
 			},
 			{
 				"name": "scenes",
 				"label": "My Scenes",
 				"path": "packs/scenes.db",
 				"entity": "Scene",
-				"module": "SharedData"
+				"module": "fvtt-shared-data"
 			},
 			{
 				"name": "journals",
 				"label": "journals",
 				"path": "packs/journals.db",
 				"entity": "Journal",
-				"module": "SharedData"
+				"module": "fvtt-shared-data"
 			}
 		]
  }
